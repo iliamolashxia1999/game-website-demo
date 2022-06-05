@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+body{
+    width: 100%;
+    
+    margin: 0;
+    font-family: 'Fira Sans';
+    background: linear-gradient(-45deg, #80457b, #030444,#2c011c,#4e071f )
+
+}
+h1{
+    font-family: Quicksand;
+    color: white;
+}
+#name{
+    font-family: quicksand;
+    margin-left: 60px;
+    margin-top : 30px;
+    color:white;
+    font-size: 25px;
+    float: left;
+    
+
+
+}
+.navbar{
+    
+    width: 18%;
+    height: 100vh;
+    position: fixed;
+    background:rgb(73, 2, 87);
+}
+
+#menu{
+    margin-left: 0;
+    width: 100%;
+    height: 100px;
+    background: blue;
+    float: left;
+
+   }
+.header{
+    margin-left: 18%;
+    width: 90%;
+    height: 100px;
+    float: right;
+    
+}
+ 
+
+
+ .box{
+    margin-left: 18%;
+    width: 80vw;
+    height: 270px;
+    float: left;
+
+
+ }
+ 
+
+ .input{
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 156vh;
+    height: 200px;
+    float:none ;
+    // text-align: center;
+    
+  
+ }
+.game{
+    margin-top: 10px;
+    margin-left: 2%;
+    width: 125px;
+    height: 180px;
+    float:left ;
+}
+.game:hover{
+    animation: game 150ms ease-in forwards;
+
+
+}
+
+@keyframes game{
+    0%  {transform: translateY(0);}
+    100%  {transform: translateY(-5px);}
+
+}
+
+.gameimg{
+   
+    width: 125px;
+    height: 170px;
+    float:left ;
+    background: rgb(129, 151, 168);
+
+}
+.imgg{
+    width: 125px;
+    height: 170px;
+    border-radius: 5px;
+   
+}
+ 

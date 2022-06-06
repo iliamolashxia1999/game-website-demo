@@ -42,19 +42,21 @@ h1 {
   float: right;
 }
 
-.box {
+.container {
   margin-left: 18%;
   width: 80vw;
   height: 270px;
   float: left;
+  border-radius: 5px;
 }
 
-.input {
+.box {
   margin-top: 20px;
   margin-left: 5%;
   width: 156vh;
   height: 200px;
   float: none;
+  border-radius: 5px;
 }
 
 .game {
@@ -63,6 +65,7 @@ h1 {
   width: 125px;
   height: 180px;
   float: left;
+  border-radius: 5px;
 }
 
 .game:hover {
@@ -97,6 +100,7 @@ h1 {
   height: 170px;
   float: left;
   background: #8197a8;
+  border-radius: 5px;
 }
 
 .imgg {
